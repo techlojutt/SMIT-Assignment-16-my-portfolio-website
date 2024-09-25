@@ -1,0 +1,51 @@
+@media screen and (min-width: 600px) {
+    .btn-primary{
+        width: fit-content;
+        padding: 10px 15px 10px 15px ;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: var(--Primary-Color);
+        background-color : var(--Primary-Color);
+        color: #161513;
+        cursor: pointer;
+        font-size: 21.38px;
+        font-weight: 600;
+        line-height: 32.07px;
+        text-align: left;
+        transition: 0.3s ease-in-out;
+    }
+ .btn-secondary{
+        width: fit-content;
+        padding: 10px 15px 10px 15px;
+        border-radius: 50px;
+        opacity: 0px;
+        border-width: 2px, 2px, 2px, 2px;
+        border-style: solid;
+        border-color: var(--Primary-Color);
+        background : #161513;
+        font-size: 20px;
+        font-size: 21.38px;
+        font-weight: 600;
+        line-height: 32.07px;
+        text-align: center;
+        color: var(--Primary-Color);
+        cursor: pointer;
+        -webkit-text-stroke:0.2px #FF8660 ;
+        background: linear-gradient(90deg,#FF8660,#8000FF);
+        background-size: 200%;
+        transition: background-position 0.5s ease;
+    }
+    .btn-secondary:hover{
+        background-position: right center; 
+        color: #fff;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); /* Glowing effect */
+        transform: translateY(-5px); /* Slight lift */
+    }
+    .btn-primary:hover{
+        /* background-position: right center; /* Slides the gradient to the right */
+        /* color: #fff; */ 
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); /* Glowing effect */
+        transform: translateY(-5px); /* Slight lift */
+    }
+    
+};

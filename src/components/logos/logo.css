@@ -1,0 +1,11 @@
+@media screen and (min-width:600px){
+    .logo-imgs{
+       width: 3em;
+    }
+}
+
+@media screen and (max-width:599px){
+    .logo-imgs{
+        width: 2.5em;
+    }
+}
